@@ -1,6 +1,5 @@
-DROP DATABASE IF EXISTS db_biblioteca;
-CREATE DATABASE db_biblioteca CHARACTER SET utf8mb4 COLLATE utf8mb4_unicode_ci;
-USE db_biblioteca;
+DROP DATABASE IF EXISTS biblioteca;
+USE biblioteca;
 
 CREATE TABLE perfis (
     id INT AUTO_INCREMENT PRIMARY KEY,
